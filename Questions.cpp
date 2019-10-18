@@ -12,7 +12,7 @@ int main()
 	int ageUtilisateur(0);
 	cin >> ageUtilisateur;
 
-	cout << "\nCombien vaut pi ?\n";
+	cout << "\nCombien vaut Pi ?\n";
 	double nombrePi(-1.);
 	cin >> nombrePi;
 
