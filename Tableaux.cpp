@@ -16,13 +16,13 @@ int main()
 	// Taille d'un tableau 
 	vector<int> const tableau_int{ 1, 2, 3, 4 };
 
-	auto const taille{ std::size(tableau_int) };
+	auto const taille{ size(tableau_int) };
 	cout << "Mon tableau contient " << taille << " elements.\n";
 	return 0;
 
 
 	// Longueur d'une chaine de caracteres
 	string const phrase{ "Voici une phrase normale." };
-	cout << "La longueur de cette phrase est : " << std::size(phrase) << " caracteres.\n";
+	cout << "La longueur de cette phrase est : " << size(phrase) << " caracteres.\n";
 	return 0;
 }
